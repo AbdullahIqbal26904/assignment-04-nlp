@@ -19,7 +19,7 @@ Baseline  →  SFT (5 LoRA trials → pick best)  →  DPO (5 trials → pick be
 | `notebooks/02_dpo.ipynb` | 5 DPO+LoRA trials from best SFT, eval, select best |
 | `notebooks/03_comparison.ipynb` | Comparison table, bar-chart figures, qualitative examples |
 | `src/eval_utils.py` | Shared eval/generation helpers (also inlined in each notebook) |
-| `report/REPORT_TEMPLATE.md` | Report scaffold — fill placeholders, export to PDF/DOCX |
+| `report/AnusheAli26418_AbdullahIqbal26904.pdf` | In depth details, comparisons and execution steps for the project. |
 | `build_notebooks.py` | Regenerates the notebooks (only needed if you edit cell content) |
 
 ## How to run (Google Colab)
