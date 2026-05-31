@@ -1,0 +1,78 @@
+{
+  "trial": 1,
+  "bleu": 9.907075081271135,
+  "bertscore_f1": 0.8854306936264038,
+  "composite": 0.49225072221955757,
+  "val_loss": 0.6465359330177307,
+  "config": {
+    "trial": 1,
+    "beta": 0.1,
+    "lr": 5e-05,
+    "batch": 2,
+    "grad_accum": 2,
+    "epochs": 1
+  },
+  "rows": [
+    {
+      "id": 1,
+      "instruction": "Explain the difference between supervised and unsupervised learning in simple terms.",
+      "reference": "Supervised learning uses labeled data: every training example comes with the correct answer, so the model learns to map inputs to known outputs (for example, predicting house prices from past sales or classifying emails as spam or not spam). Unsupervised learning uses unlabeled data: there are no correct answers given, so the model instead finds hidden structure or patterns on its own, such as grouping similar customers together (clustering) or reducing the number of features in a dataset. In short, supervised learning learns from examples with answers, while unsupervised learning discovers structure without any answers.",
+      "response": "Supervised learning and unsupervised learning are two types of machine learning algorithms. In supervised learning, the model is trained on a dataset that includes both input features and corresponding output labels. The goal is to learn a mapping from input features to output labels, so that the model can make predictions on new, unseen data. In unsupervised learning, the model is trained on a dataset that includes only input features and no corresponding output labels. The goal is to find patterns or structure in the data, such as clustering or dimensionality reduction, without any prior knowledge of the output labels."
+    },
+    {
+      "id": 2,
+      "instruction": "Write a short, polite email to a professor requesting a one-week extension on an assignment.",
+      "reference": "Subject: Request for One-Week Extension on [Assignment Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to respectfully request a one-week extension on [Assignment Name], which is currently due on [original due date]. Due to [brief, honest reason, e.g., illness or an unexpected personal matter], I have been unable to complete the work to the standard I would like.\n\nIf possible, I would be grateful for an extension until [new date]. I understand if this cannot be accommodated and appreciate your time and consideration.\n\nThank you very much.\n\nBest regards,\n[Your Full Name]\n[Course Name / Student ID]",
+      "response": "Subject: Request for One-Week Extension on Assignment\n\nDear Professor,\n\nI hope this email finds you well. I am writing to request an extension on my assignment, which is due on [due date]. I understand the importance of the deadline and the significance of the assignment in my academic journey.\n\nI have been working on the assignment for [number of days] and I believe I have made substantial progress. I am confident that the work I have completed is of high quality and meets the requirements of the assignment. I would appreciate it if you could extend the deadline to [new deadline] to allow me more time to complete the assignment.\n\nI will ensure that I submit the assignment on the new deadline and will provide any additional information or clarification as needed. I am grateful for your understanding and look forward to your response.\n\nBest regards,\n\n[Your Name]"
+    },
+    {
+      "id": 3,
+      "instruction": "What are three practical tips for improving focus while studying?",
+      "reference": "1. Remove distractions: put your phone on silent or in another room, close unrelated browser tabs, and study in a quiet, dedicated space so your attention is not constantly interrupted.\n2. Use timed work blocks: try the Pomodoro technique, studying in focused 25-minute intervals with short 5-minute breaks, which keeps your mind fresh and makes large tasks feel manageable.\n3. Set a clear, specific goal for each session: instead of vaguely planning to study, decide exactly what you will accomplish (for example, finish two practice problems or summarize one chapter), which gives you direction and a sense of progress.",
+      "response": "1. **Set clear goals**: Break down your study session into manageable tasks and set specific, achievable goals. This helps you stay focused and motivated.\n\n2. **Create a conducive environment**: Find a quiet, well-lit space where you can concentrate without distractions. Consider using noise-cancelling headphones or turning off notifications on your phone.\n\n3. **Take regular breaks**: Incorporate short breaks (e.g., 5-10 minutes) to step away from your study material and take a walk. This helps prevent mental fatigue and improves your ability to focus."
+    },
+    {
+      "id": 4,
+      "instruction": "Summarize the water cycle in two sentences.",
+      "reference": "The water cycle is the continuous movement of water on Earth, in which the sun heats water from oceans, lakes, and rivers, causing it to evaporate into the air, where it cools and condenses into clouds. The water then falls back to the surface as precipitation such as rain or snow, collecting in bodies of water and soaking into the ground, after which the process repeats.",
+      "response": "The water cycle, also known as the hydrologic cycle, is a continuous process by which water circulates between the Earth and the atmosphere. It involves evaporation, condensation, precipitation, and collection."
+    },
+    {
+      "id": 5,
+      "instruction": "Translate the sentence 'Knowledge is power' into French and Spanish.",
+      "reference": "French: Le savoir, c'est le pouvoir. (also commonly written as \"La connaissance, c'est le pouvoir.\")\nSpanish: El conocimiento es poder.",
+      "response": "In French, the sentence 'Knowledge is power' can be translated as: \"Connaissance est puissance.\"\n\nIn Spanish, the sentence 'Knowledge is power' can be translated as: \"Conocer es poder.\""
+    },
+    {
+      "id": 6,
+      "instruction": "Give me a simple recipe for making pancakes from scratch.",
+      "reference": "Simple Pancakes (makes about 8 pancakes)\n\nIngredients:\n- 1 cup all-purpose flour\n- 1 tablespoon sugar\n- 1 teaspoon baking powder\n- 1/2 teaspoon salt\n- 1 cup milk\n- 1 egg\n- 2 tablespoons melted butter (plus more for the pan)\n\nSteps:\n1. In a bowl, whisk together the flour, sugar, baking powder, and salt.\n2. In a separate bowl, beat the egg, then mix in the milk and melted butter.\n3. Pour the wet ingredients into the dry ingredients and stir gently until just combined; a few lumps are fine, do not overmix.\n4. Heat a lightly buttered pan over medium heat. Pour about 1/4 cup of batter per pancake.\n5. Cook until bubbles form on the surface and the edges look set (1-2 minutes), then flip and cook the other side until golden.\n6. Serve warm with syrup, fruit, or butter.",
+      "response": "Here is a simple recipe for making pancakes from scratch:\n\nIngredients:\n- 1 cup all-purpose flour\n- 1/2 cup granulated sugar\n- 1/4 cup butter, softened\n- 1 large egg\n- 1 teaspoon vanilla extract\n- 1/2 cup milk\n\nInstructions:\n1. In a large bowl, whisk together the flour, sugar, and butter.\n2. Add the egg and vanilla extract, and mix until well combined.\n3. Gradually add the milk, mixing until the batter is smooth.\n4. Heat a non-stick pan over medium heat. \n5. Pour the batter into the pan, spreading it evenly.\n6. Cook for 5-7 minutes on each side, or until the pancakes are golden brown and crispy.\n7. Serve hot and enjoy!"
+    },
+    {
+      "id": 7,
+      "instruction": "What is photosynthesis and why is it important for life on Earth?",
+      "reference": "Photosynthesis is the process by which green plants, algae, and some bacteria use sunlight to convert carbon dioxide and water into glucose (a sugar that stores energy) and oxygen. It takes place mainly in the chloroplasts of plant cells, using the green pigment chlorophyll to capture light energy. Photosynthesis is essential for life on Earth for two main reasons: it produces the oxygen that most living things need to breathe, and it forms the base of nearly every food chain by creating the chemical energy that plants store and that animals ultimately rely on for food. It also helps regulate the climate by removing carbon dioxide from the atmosphere.",
+      "response": "Photosynthesis is a process that takes place in the leaves of plants, algae, and some bacteria. It is a way for these organisms to convert light energy into chemical energy. The process involves the absorption of light by chlorophyll, a green pigment in the chloroplasts of the plant cells. The light energy is used to split water molecules into oxygen, protons, and electrons. The electrons are then transferred to a series of proteins in the thylakoid membranes of the chloroplasts, where they are used to generate ATP and NADPH. These energy-rich molecules are then used in a series of reactions called the Calvin cycle to convert carbon dioxide into glucose, a simple sugar that serves as a source of energy for the plant.\n\nPhotosynthesis is important for life on Earth for several reasons. First, it is the primary source of oxygen in the atmosphere. As plants and other photosynthetic organisms use oxygen to fuel their processes, they release oxygen into the air, which is essential for the survival of most living organisms. Second, photosynthesis is the foundation of the food chain. Plants are the primary producers in the ecosystem, and they convert sunlight into energy, which is then passed on to herbivores, which in turn are consumed by carnivores. This"
+    },
+    {
+      "id": 8,
+      "instruction": "List the steps to set up a basic Python virtual environment.",
+      "reference": "1. Open a terminal and navigate to your project folder, for example: cd my_project\n2. Create the virtual environment using the built-in venv module: python -m venv venv (this creates a folder named \"venv\").\n3. Activate the environment:\n   - On macOS/Linux: source venv/bin/activate\n   - On Windows: venv\\Scripts\\activate\n4. Once activated, your terminal prompt shows (venv). Install packages as needed, e.g.: pip install requests\n5. Save your dependencies for reproducibility: pip freeze > requirements.txt\n6. When you are finished working, deactivate the environment by running: deactivate",
+      "response": "1. Create a new directory for your virtual environment. For example, create a directory named `myenv`.\n2. Navigate to the newly created directory.\n3. Create a new virtual environment using the `venv` module. For example, run the following command:\n   ```\n   python3 -m venv myenv\n   ```\n4. Activate the virtual environment. The command to activate the virtual environment depends on the operating system. For example, on Windows, run the following command:\n   ```\n   myenv\\Scripts\\activate\n   ```\n   On Unix or macOS, run the following command:\n   ```\n   source myenv/bin/activate\n   ```\n5. Install any required Python packages using the `pip` module. For example, to install the `requests` package, run the following command:\n   ```\n   pip install requests\n   ```\n6. Deactivate the virtual environment. For example, on Windows, run the following command:\n   ```\n   deactivate\n   ```\n   On Unix or macOS, run the following command:\n   ```\n   deactivate\n   ```"
+    },
+    {
+      "id": 9,
+      "instruction": "Explain what a stock market index is to someone with no finance background.",
+      "reference": "A stock market index is a single number that summarizes how a particular group of stocks is performing overall. Instead of tracking hundreds of companies one by one, an index combines selected companies into one measurement, so when you hear that \"the index went up,\" it means that, on average, the stocks in that group rose in value. A common analogy is a class average on a test: rather than listing every student's score, you look at one number that represents the whole class. Well-known examples include the S&P 500 (500 large U.S. companies) and the Dow Jones Industrial Average. Investors use indices to gauge the health of the market and to compare how their own investments are doing against the broader market.",
+      "response": "A stock market index is a measure of the performance of a group of stocks. It is used to track the performance of a particular sector or industry. For example, the S&P 500 is a stock market index that tracks the performance of 500 large companies in the United States. The index is calculated by weighting the performance of each company based on its market capitalization. The index is used to compare the performance of individual stocks and companies to the overall market."
+    },
+    {
+      "id": 10,
+      "instruction": "Describe the benefits of regular physical exercise for mental health.",
+      "reference": "Regular physical exercise offers several mental health benefits. It triggers the release of endorphins and other brain chemicals that improve mood and create a sense of well-being, which can help reduce symptoms of depression and anxiety. Exercise also lowers stress by reducing levels of stress hormones such as cortisol, and it can improve sleep quality, which in turn supports emotional balance and concentration. Over time, achieving fitness goals can boost self-esteem and confidence, while activities like team sports or group classes provide social connection that combats loneliness. Additionally, exercise improves blood flow to the brain, which supports memory, focus, and overall cognitive function.",
+      "response": "Regular physical exercise has been shown to have numerous benefits for mental health. It can help reduce symptoms of anxiety and depression, improve mood, and increase feelings of well-being. Exercise also helps regulate the body's stress response, which can lead to reduced cortisol levels and improved overall mental health. Additionally, physical activity can improve sleep quality, which is crucial for mental health. Overall, regular physical exercise can be a powerful tool for improving mental health and promoting a healthier, happier life."
+    }
+  ],
+  "adapter_dir": "/content/drive/MyDrive/assignment-4/adapters/dpo_trial1"
+}

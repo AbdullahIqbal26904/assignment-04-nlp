@@ -1,0 +1,84 @@
+{
+  "trial": 2,
+  "bleu": 6.116716273322937,
+  "bertscore_f1": 0.8784695863723755,
+  "composite": 0.46981837455280245,
+  "val_loss": null,
+  "config": {
+    "trial": 2,
+    "r": 16,
+    "alpha": 32,
+    "modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "lr": 0.0002,
+    "batch": 8,
+    "epochs": 2
+  },
+  "rows": [
+    {
+      "id": 1,
+      "instruction": "Explain the difference between supervised and unsupervised learning in simple terms.",
+      "reference": "Supervised learning uses labeled data: every training example comes with the correct answer, so the model learns to map inputs to known outputs (for example, predicting house prices from past sales or classifying emails as spam or not spam). Unsupervised learning uses unlabeled data: there are no correct answers given, so the model instead finds hidden structure or patterns on its own, such as grouping similar customers together (clustering) or reducing the number of features in a dataset. In short, supervised learning learns from examples with answers, while unsupervised learning discovers structure without any answers.",
+      "response": "Supervised learning is a type of machine learning where the model is trained on a dataset that contains both input and output data. The model is then trained to predict the output for new input data. Unsupervised learning is a type of machine learning where the model is trained on a dataset that contains only input data. The model is then trained to identify patterns and relationships in the data without any output data."
+    },
+    {
+      "id": 2,
+      "instruction": "Write a short, polite email to a professor requesting a one-week extension on an assignment.",
+      "reference": "Subject: Request for One-Week Extension on [Assignment Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to respectfully request a one-week extension on [Assignment Name], which is currently due on [original due date]. Due to [brief, honest reason, e.g., illness or an unexpected personal matter], I have been unable to complete the work to the standard I would like.\n\nIf possible, I would be grateful for an extension until [new date]. I understand if this cannot be accommodated and appreciate your time and consideration.\n\nThank you very much.\n\nBest regards,\n[Your Full Name]\n[Course Name / Student ID]",
+      "response": "Subject: Request for one-week extension on assignment\n\nDear Professor,\n\nI hope this email finds you well. I am writing to request an extension on my assignment due on [date]. I understand that the deadline is [date], and I have been working on the assignment for [number of days] since then. I have been struggling to complete the assignment, and I am concerned that I may not be able to meet the deadline. I would appreciate it if you could extend the deadline by one week, so I can complete the assignment and submit it on time. I am committed to completing the assignment and will do my best to ensure that it is submitted on time. I look forward to hearing from you soon.\n\nSincerely,\n[Your Name]"
+    },
+    {
+      "id": 3,
+      "instruction": "What are three practical tips for improving focus while studying?",
+      "reference": "1. Remove distractions: put your phone on silent or in another room, close unrelated browser tabs, and study in a quiet, dedicated space so your attention is not constantly interrupted.\n2. Use timed work blocks: try the Pomodoro technique, studying in focused 25-minute intervals with short 5-minute breaks, which keeps your mind fresh and makes large tasks feel manageable.\n3. Set a clear, specific goal for each session: instead of vaguely planning to study, decide exactly what you will accomplish (for example, finish two practice problems or summarize one chapter), which gives you direction and a sense of progress.",
+      "response": "1. Set a timer for 10 minutes and start studying immediately. This will help you to get into a focused state.\n2. Use a planner to keep track of your to-do list. This will help you to stay organized and avoid distractions.\n3. Take breaks every 30 minutes. This will help you to maintain focus and prevent burnout."
+    },
+    {
+      "id": 4,
+      "instruction": "Summarize the water cycle in two sentences.",
+      "reference": "The water cycle is the continuous movement of water on Earth, in which the sun heats water from oceans, lakes, and rivers, causing it to evaporate into the air, where it cools and condenses into clouds. The water then falls back to the surface as precipitation such as rain or snow, collecting in bodies of water and soaking into the ground, after which the process repeats.",
+      "response": "The water cycle is the process by which water is recycled through the atmosphere, land, and underground."
+    },
+    {
+      "id": 5,
+      "instruction": "Translate the sentence 'Knowledge is power' into French and Spanish.",
+      "reference": "French: Le savoir, c'est le pouvoir. (also commonly written as \"La connaissance, c'est le pouvoir.\")\nSpanish: El conocimiento es poder.",
+      "response": "In French, the sentence 'Knowledge is power' is 'Connaissance est puissance'. In Spanish, the sentence 'Knowledge is power' is 'Conocimiento es poder'."
+    },
+    {
+      "id": 6,
+      "instruction": "Give me a simple recipe for making pancakes from scratch.",
+      "reference": "Simple Pancakes (makes about 8 pancakes)\n\nIngredients:\n- 1 cup all-purpose flour\n- 1 tablespoon sugar\n- 1 teaspoon baking powder\n- 1/2 teaspoon salt\n- 1 cup milk\n- 1 egg\n- 2 tablespoons melted butter (plus more for the pan)\n\nSteps:\n1. In a bowl, whisk together the flour, sugar, baking powder, and salt.\n2. In a separate bowl, beat the egg, then mix in the milk and melted butter.\n3. Pour the wet ingredients into the dry ingredients and stir gently until just combined; a few lumps are fine, do not overmix.\n4. Heat a lightly buttered pan over medium heat. Pour about 1/4 cup of batter per pancake.\n5. Cook until bubbles form on the surface and the edges look set (1-2 minutes), then flip and cook the other side until golden.\n6. Serve warm with syrup, fruit, or butter.",
+      "response": "Here is a simple recipe for making pancakes from scratch.  You will need a non-stick pan, a fork, and a spatula.  In a large bowl, combine 1 cup of all-purpose flour, 1/2 cup of granulated sugar, 1/2 cup of butter, 1/2 cup of milk, and 1 teaspoon of baking powder.  Add 1 egg and 1/2 cup of milk to the bowl and mix until well combined.  Add 1/2 cup of milk and 1/2 cup of milk to the bowl and mix until well combined.  Add 1/2 cup of milk and 1/2 cup of milk to the bowl and mix until well combined.  Add 1/2 cup of milk and 1/2 cup of milk to the bowl and mix until well combined.  Add 1/2 cup of milk and 1/2 cup of milk to the bowl and mix until well combined.  Add 1/2 cup of milk and 1/2 cup of milk to the bowl and mix until well combined.  Add 1/2 cup of milk and 1/2 cup of milk to the bowl and mix until well combined."
+    },
+    {
+      "id": 7,
+      "instruction": "What is photosynthesis and why is it important for life on Earth?",
+      "reference": "Photosynthesis is the process by which green plants, algae, and some bacteria use sunlight to convert carbon dioxide and water into glucose (a sugar that stores energy) and oxygen. It takes place mainly in the chloroplasts of plant cells, using the green pigment chlorophyll to capture light energy. Photosynthesis is essential for life on Earth for two main reasons: it produces the oxygen that most living things need to breathe, and it forms the base of nearly every food chain by creating the chemical energy that plants store and that animals ultimately rely on for food. It also helps regulate the climate by removing carbon dioxide from the atmosphere.",
+      "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy.  This process is important for life on Earth because it is the primary source of oxygen in the atmosphere and the main source of food for most organisms.  Photosynthesis also helps regulate the Earth's climate by removing carbon dioxide from the atmosphere."
+    },
+    {
+      "id": 8,
+      "instruction": "List the steps to set up a basic Python virtual environment.",
+      "reference": "1. Open a terminal and navigate to your project folder, for example: cd my_project\n2. Create the virtual environment using the built-in venv module: python -m venv venv (this creates a folder named \"venv\").\n3. Activate the environment:\n   - On macOS/Linux: source venv/bin/activate\n   - On Windows: venv\\Scripts\\activate\n4. Once activated, your terminal prompt shows (venv). Install packages as needed, e.g.: pip install requests\n5. Save your dependencies for reproducibility: pip freeze > requirements.txt\n6. When you are finished working, deactivate the environment by running: deactivate",
+      "response": "1. Install Python\n2. Install virtualenv\n3. Create a new virtual environment\n4. Activate the virtual environment\n5. Install packages\n6. Deactivate the virtual environment"
+    },
+    {
+      "id": 9,
+      "instruction": "Explain what a stock market index is to someone with no finance background.",
+      "reference": "A stock market index is a single number that summarizes how a particular group of stocks is performing overall. Instead of tracking hundreds of companies one by one, an index combines selected companies into one measurement, so when you hear that \"the index went up,\" it means that, on average, the stocks in that group rose in value. A common analogy is a class average on a test: rather than listing every student's score, you look at one number that represents the whole class. Well-known examples include the S&P 500 (500 large U.S. companies) and the Dow Jones Industrial Average. Investors use indices to gauge the health of the market and to compare how their own investments are doing against the broader market.",
+      "response": "A stock market index is a measure of the performance of a group of stocks. It is used to track the performance of a particular sector or industry. For example, the S&P 500 is a stock market index that tracks the performance of 500 large companies. The index is calculated by weighting the performance of each company based on its market capitalization. The index is used to compare the performance of different companies and to make investment decisions."
+    },
+    {
+      "id": 10,
+      "instruction": "Describe the benefits of regular physical exercise for mental health.",
+      "reference": "Regular physical exercise offers several mental health benefits. It triggers the release of endorphins and other brain chemicals that improve mood and create a sense of well-being, which can help reduce symptoms of depression and anxiety. Exercise also lowers stress by reducing levels of stress hormones such as cortisol, and it can improve sleep quality, which in turn supports emotional balance and concentration. Over time, achieving fitness goals can boost self-esteem and confidence, while activities like team sports or group classes provide social connection that combats loneliness. Additionally, exercise improves blood flow to the brain, which supports memory, focus, and overall cognitive function.",
+      "response": "Regular physical exercise has been shown to have a positive impact on mental health. It can help reduce symptoms of depression and anxiety, improve mood, and increase feelings of well-being. Exercise can also help improve sleep quality, reduce stress, and increase resilience to life's challenges."
+    }
+  ],
+  "adapter_dir": "/content/drive/MyDrive/assignment-4/adapters/sft_trial2"
+}
