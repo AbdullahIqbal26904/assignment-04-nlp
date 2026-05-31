@@ -1,6 +1,7 @@
 # Assignment 04 — SFT → DPO Fine-Tuning of Qwen3-0.6B
 
 **Track 1 (LLM) · Option A (SFT → DPO)** · BLEU + BERTScore evaluation
+
 Group: Abdullah Iqbal (26904), Anushe Ali (26418)
 
 ## Pipeline
@@ -39,7 +40,7 @@ See `results/summary.csv` for the headline numbers and `results/*_trials.json` f
 | `adapters/sft_trial{1..5}/`, `adapters/dpo_trial{1..5}/` | Saved LoRA adapters per trial |
 | `results/` | Per-trial JSON, baseline JSON, and `summary.csv` |
 | `figures/BLEU_by_stage.png`, `figures/BERTScore_F1_by_stage.png` | Comparison charts |
-| `report/AnusheAli26418_AbdullahIqbal26904.docx` | Final submission report |
+| `report/AnusheAli26418_AbdullahIqbal26904.pdf` | Final submission report — in-depth details, comparisons, and execution steps |
 
 ## How to reproduce
 1. The reference answers in `data/test_set.json` are already filled (gold answers from ChatGPT/Claude/Gemini).
@@ -53,4 +54,4 @@ See `results/summary.csv` for the headline numbers and `results/*_trials.json` f
 - The `PROJ` path in each notebook (`/content/drive/MyDrive/assignment-4`) can be changed at the top.
 - If the TRL API differs from your installed version (e.g. `processing_class` vs `tokenizer`,
   `eval_strategy` vs `evaluation_strategy`), adjust the trainer kwargs — the rest is stable.
-- Deliverables: these notebooks (zip or GitHub) + the report `report/AnusheAli26418_AbdullahIqbal26904.docx`.
+- Deliverables: these notebooks (zip or GitHub) + the report `report/AnusheAli26418_AbdullahIqbal26904.pdf`.
