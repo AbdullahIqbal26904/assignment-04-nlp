@@ -2,7 +2,7 @@
 
 **Track 1 (LLM) · Option A (SFT → DPO)** · BLEU + BERTScore evaluation
 
-Group: Abdullah Iqbal (26904), Anushe Ali (26418)
+Group: Anushe Ali (26418), Abdullah Iqbal (26904)
 
 ## Pipeline
 ```
