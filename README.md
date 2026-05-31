@@ -5,9 +5,8 @@
 Group: Anushe Ali (26418), Abdullah Iqbal (26904)
 
 This project explores how a small base language model can be improved to follow instructions using:
-
-Supervised Fine-Tuning (SFT)
-Direct Preference Optimization (DPO)
+- Supervised Fine-Tuning (SFT)
+- Direct Preference Optimization (DPO)
 
 The full methodology, experiments, and results are documented in the report included in this repository.
 
